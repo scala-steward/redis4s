@@ -11,7 +11,7 @@ jobs:
       with:
         java-version: zulu@1.8
     - uses: coursier/cache-action@v3
-    - uses: zhulik/redis-action@v1.0.0
+    - uses: zhulik/redis-action@1.1.0
       with:
         redis version: '5'
     - run: |
